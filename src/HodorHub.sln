@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28729.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HodorHub.Common", "HodorHub.Common\HodorHub.Common.csproj", "{B3A4A033-7EB3-4794-B884-56B4A9B8CFF9}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "HodorHub.Web", "HodorHub.Web\HodorHub.Web.fsproj", "{8858ADBE-58DB-40CA-B1F4-B825B7B3B307}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HodorHub.Domain", "HodorHub.Domain\HodorHub.Domain.csproj", "{FA67666F-FDB2-4EA9-B59A-50F84B213E1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HodorHub.Application", "HodorHub.Application\HodorHub.Application.csproj", "{2ED97845-7CE4-4CA2-87AD-15BA35CCD254}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HodorHub.Persistence", "HodorHub.Persistence\HodorHub.Persistence.csproj", "{CF88AF14-9AD0-4553-82A0-51BE9DA40743}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HodorHub.Infrastructure", "HodorHub.Infrastructure\HodorHub.Infrastructure.csproj", "{CE0B44B0-306B-4CF9-B89F-89EE49375B21}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3A4A033-7EB3-4794-B884-56B4A9B8CFF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3A4A033-7EB3-4794-B884-56B4A9B8CFF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3A4A033-7EB3-4794-B884-56B4A9B8CFF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3A4A033-7EB3-4794-B884-56B4A9B8CFF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8858ADBE-58DB-40CA-B1F4-B825B7B3B307}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8858ADBE-58DB-40CA-B1F4-B825B7B3B307}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8858ADBE-58DB-40CA-B1F4-B825B7B3B307}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8858ADBE-58DB-40CA-B1F4-B825B7B3B307}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA67666F-FDB2-4EA9-B59A-50F84B213E1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA67666F-FDB2-4EA9-B59A-50F84B213E1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA67666F-FDB2-4EA9-B59A-50F84B213E1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA67666F-FDB2-4EA9-B59A-50F84B213E1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ED97845-7CE4-4CA2-87AD-15BA35CCD254}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ED97845-7CE4-4CA2-87AD-15BA35CCD254}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ED97845-7CE4-4CA2-87AD-15BA35CCD254}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ED97845-7CE4-4CA2-87AD-15BA35CCD254}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF88AF14-9AD0-4553-82A0-51BE9DA40743}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF88AF14-9AD0-4553-82A0-51BE9DA40743}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF88AF14-9AD0-4553-82A0-51BE9DA40743}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF88AF14-9AD0-4553-82A0-51BE9DA40743}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE0B44B0-306B-4CF9-B89F-89EE49375B21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE0B44B0-306B-4CF9-B89F-89EE49375B21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE0B44B0-306B-4CF9-B89F-89EE49375B21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE0B44B0-306B-4CF9-B89F-89EE49375B21}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {97E71262-1D6D-4B49-B90F-CC69C84D1BD4}
+	EndGlobalSection
+EndGlobal
